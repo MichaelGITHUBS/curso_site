@@ -1,174 +1,104 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Meu site pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+
+
+   
+
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li><a href="#sports" title="Ir para a seção de esportes">Esportes</a></li>
-                <li><a href="#economy" title="Ir para a seção de economia">Economia</a></li>
-                <li><a href="#entertainment" title="Ir para a seção de entretenimento">Entretenimento</a></li>
-                <li><a href="#technology" title="Ir para a seção de tecnologia">Tecnologia</a></li>
+        <section class="home">
+            <img class="MM" src="./imagens/MM.png" alt="Imagem de MM"/>
+            <div class="informacoes">
+                <div class="texto">
+                    <h1>Olá, sou Miguel Mota!</h1>
+                    <p>
+                        Sou um programador iniciante que estou em constante evolução na programação em busca de conhecer e me aprimorar mais ainda nessa área.
+                    </p>
+                    <p>Estou aprendendo sobre CSS, Python, HTML, onde ao mesmo tempo estudo um pouco sobre PowerBI e inteligencia artificial no qual estou cursando. 
+                        Já tinha conhecimento prévio antes de cursa esses assuntos, no qual aprendi mais ainda sobre as linguagens e como são utilizadas no mercado de trabalho, como por exemplo, mesmo que seja o básico, sites personalizados, pessoais (como esse por exemplo), entre outros que ainda estou em desenvolvimento.</p>
+                 <p>
+                    No meu tempo livre gosto muito de ler, principalmente, livros clássicos e de vez em quando algumas histórias fictícias. 
+                      Além de ler, eu gosto de fazer outras coisas como assistir filmes, séries, entre outras coisas do contidiano.
+                 </p>
+                </div> <!-- Fechar div .texto aqui -->
+            </div> <!-- Fechar div .informacoes aqui -->
+        </section>
+    </header>   
+    <section>
+        <div >
+            <ul class="imagem-dev">
+                <li>
+                    <a>
+                        <img src="imagens/Imagemdev.png" alt="Imagem de desenvolvedor">
+                    </a>
+                </li>
+
             </ul>
-        </nav>
-    </header>
-    <section id="sports">
-        <div class="container"> 
-            <h2>Esportes</h2>
-            <div class="articles">
-                <article>
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="futebol-americano.jpg" alt="Bola de futebol no gramado">
-                    </header>
-                    
-                    <h3>Grande clássico na noite de hoje</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="futebol.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                    </header>
-                    <h3>Noite do Superbowl</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="basquete.jpg" alt="Vista aérea de uma quadra de basquete" />
-                    </header>
-                    <h3>Notícia sobre a NBA</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
         </div>
     </section>
-    <section id="economy">
-        <div class="container">
-            <h2>Economia</h2>
-            <div class="articles">
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="dolares.jpg" alt="Muitos dólares" />
-                    </header>
-                    <h3>Dólar em alta de 0.50%</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="euro.jpg" alt="Várias notas de euro" />
-                    </header>
-                    <h3>Euro em queda de 0.40%</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="petroleo.jpg" alt="Extração de petróleo" />
-                    </header>
-                    <h3>Alta no preço do barril do petróleo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
+    <section id="contact">
+        <div class="projetos">
+        <h2>MEUS PROJETOS ANTERIORES</h2>
+        <div class="container-projetos">
+        <div class="projeto ativo">
+            <a href="https://site-gamesshop-kvlhvvg63-miguels-projects-bb4288c5.vercel.app/" target="_blank">
+            <img src="imagens/Captura de Tela (214).png" alt="Game-Shop"> 
+            </a>
+            <a href="https://michaelgithubs.github.io/curso_vscode/" target="_blank">
+                <img src="imagens/Captura de Tela (215).png" alt="Portal de notícias">
+            </a>
     </section>
-    <section id="entertainment">
+    <section id="contact">
         <div class="container">
-            <h2>Entretenimento</h2>
-            <div class="articles">
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="jogo.webp" alt="Jogos de entretenimento" />
-                    </header>
-                    <h3>Jogos de entretenimento</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="Img.jpg" alt="Dança" />
-                    </header>
-                    <h3>Danças</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="filmes1.png" alt="Filmes" />
-                    </header>
-                    <h3>Filmes para assistir</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="technology">
-        <div class="container">
-            <h2>Tecnologia</h2>
-            <div class="articles">
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="computador-para-arquiteto.jpg" alt="Tecnologia" />
-                    </header>
-                    <h3>Computador</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="robo4.webp" alt="Robô" />
-                    </header>
-                    <h3>Robôs</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    
-                    <header>
-                        <time>13/07/2022 às 12:35</time>
-                        <img src="drones.jpg" alt="Drones" />
-                    </header>
-                    <h3>Drones</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.</p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale comigo</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu email" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <ul class="social-links">
+                        <h2>Me acompanhe nas redes sociais!</h2>
+                        <li>
+                            <a href="https://github.com/MichaelGITHUBS" title="Siga-me no GitHub" target="_blank">       
+                                <img src="imagens/Hubdesktop.png" alt="Logo do GitHub">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/lizmotadesigner/" title="Siga-me no Instagram" target="_blank">
+                                <img src="imagens/LogoInsta.png" alt="Logo do Instagram">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.roblox.com/pt/users/4783488360/profile" title="Siga-me no roblox" target="_blank">
+                                <img src="imagens/Pngroblox.png" alt="Logo do roblox">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+          </div>
         </div>
     </section>
 </body>
-</html>
-</body>
-</html>
-       
